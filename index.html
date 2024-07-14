@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Image Comparison</title>
+<!-- Bootstrap CSS -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row mt-3">
+      <div class="col-md-12">
+        <button class="btn btn-primary btn-block" onclick="toggleImages()">          멀리 보기
+        </button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <img id="image1" class="img-fluid" src="" alt="Image 1">
+      </div>
+      <div class="col-md-6">
+        <img id="image2" class="img-fluid" src="" alt="Image 2">
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-md-6">
+        <button class="btn btn-primary btn-block" onclick="showBeforeImage()">Before</button>
+      </div>
+      <div class="col-md-6">
+        <button class="btn btn-primary btn-block" onclick="showAfterImage()">After</button>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-md-12">
+        <button class="btn btn-success btn-block" onclick="compareImages()">Compare</button>
+      </div>
+    </div>
+  </div>
+
+<!-- Bootstrap JS (optional) -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
